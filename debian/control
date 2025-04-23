@@ -1,0 +1,12 @@
+Source: ros-kilted-grasping-msgs
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-geometry-msgs, ros-kilted-moveit-msgs, ros-kilted-rosidl-default-generators, ros-kilted-sensor-msgs, ros-kilted-shape-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace, ros-kilted-rosidl-typesupport-fastrtps-c, ros-kilted-rosidl-typesupport-fastrtps-cpp
+Homepage: http://ros.org/wiki/grasping_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kilted-grasping-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-geometry-msgs, ros-kilted-moveit-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-shape-msgs, ros-kilted-std-msgs, ros-kilted-ros-workspace
+Description: Messages for describing objects and how to grasp them.
